@@ -1,2 +1,44 @@
-# nineties-computing
-A website which will take you back to 1990s — Just a hobby idea!
+# 90s Computing
+
+![Website](https://img.shields.io/website?label=%20&style=for-the-badge&up_color=blueviolet&up_message=Click%20Here%20to%20Visit%20the%20Website&url=https%3A%2F%2Fluciferreeves.github.io%2Fnineties-computing%2F)
+
+
+![GitHub](https://img.shields.io/github/license/luciferreeves/nineties-computing?style=for-the-badge)
+![Lines of code](https://img.shields.io/tokei/lines/github/luciferreeves/nineties-computing?label=Lines%20Of%20Code&style=for-the-badge)
+![Vanilla JavaScipt](https://img.shields.io/badge/Written%20with-Vanilla%20Javascript-Yellow?style=for-the-badge&logo=JavaScript&color=F7DF1E)
+
+90s Computing is a website written in HTML and vanilla JavaScript which is designed to take you back to the computing era of 1995 - 2000. It includes features that you would have normally found on a computer of that age.
+
+You can visit [this url](https://luciferreeves.github.io/nineties-computing/) to experience this project.
+
+## Your Information and Data
+
+There may be come instances where you might be asked to provide some of your personal information or there might be some places on the website where the information you are viewing might be stored.
+
+All of this information is stored on your local computer and is never transferred to any place on the internet. None of your activities would be tracked by any second or third party company or organization.
+
+Be assured that your data is safe with you and all of this is only done to make your experience more seamless and user friendly. However, if you still have problems filling in your personal information in some fields, please feel free to fill in a fake one. 😂
+
+## Contributing Guide
+
+Keeping this Short, Simple and Stupid, here's how you can contribute to this project:
+
+### Suggest an idea
+
+You are welcome to suggest any chamges by *_Opening an Issue_* in the [Issues Tab](https://github.com/luciferreeves/nineties-computing/issues).
+
+### Deploy an idea
+
+If you have a constructive idea for the project and you can add it to the project, all you have to do is to [fork this repository](https://github.com/luciferreeves/nineties-computing/fork) and submit a pull request from the [Pull Requests Tab](https://github.com/luciferreeves/nineties-computing/pulls).
+
+### Become a stargazer
+
+I understand that you might not have the time and/or resources to manually contribute to this repository. However, you can become a stargazer. Just click the 'Star' button at the top of the page and you're done.
+
+![Star the repository](https://i.ibb.co/gFq8YNL/ezgif-4-30c795a5677f.gif)
+
+## License Information
+
+This project is free and open source software; you can redistribute it and/or modify it under the MIT License. Please read more about the license [here](LICENSE).
+
+> Liked this project? Check out [more](https://github.com/luciferreeves?tab=repositories).
