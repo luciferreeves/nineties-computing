@@ -2,3 +2,44 @@
     font-family: 'Chicago';
     font-size: 2.2rem;
 }
+
+.chicago {
+    font-family: 'Chicago';
+}
+
+.image_block_description {
+    position: relative;
+    top: calc(-60px);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form_elements label {
+    width: 25%;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.form_elements input {
+    width: calc(75% - 40px);
+    display: inline-block;
+    font-size: 1rem;
+    font-family: 'Chicago';
+    border: solid 2px #ccc;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.form_elements input:focus {
+    border: solid 4px #3c3cc7;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    margin: 10px auto;
+    display: block;
+    border-radius: 4px;
+}
