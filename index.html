@@ -18,8 +18,9 @@
                 <marquee class="welcome_heading" scrollamount="10">Hello user! Looks like you don't have an account yet!</marquee>
                 <h3 class="chicago center_text">Don't worry. We will help you with that!</h3>
                 <p class="chicago justify_text">In order to create your account, you need to provide some information. All of this information is stored on your local computer is not transmitted anywhere. Please fill in all of the following fields mentioned below and then click the 'Create My Account' button. We are waiting for you to finish. :)</p>
-                <div class="image_block"></div>
-                <span class="image_block_description chicago">Select your avatar...</span>
+                <input type="file" id="avatar-file-input" accept="image/x-png,image/gif,image/jpeg" style="display: none;">
+                <div id="avatar-image-element" class="image_block"></div>
+                <span id="avatar-text-element" class="image_block_description chicago">Select your avatar...</span>
                 <div class='form_elements chicago'>
                     <label for="fullname">Full Name</label>
                     <input type="text" name="fullname" id="fullname" placeholder="Enter your full name">
@@ -27,10 +28,13 @@
                     <input type="password" name="password" id="password" placeholder="Enter a new password">
                     <label for="confirmPassword">Confirm Password</label>
                     <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+                    <p id="error" class="chicago text-red"></p>
                     <button id="createNewAccount" class="btn bg-purple chicago text-white">Create My Account</button>          
                 </div>
             </div>
         </div>
     </section>
+    <!-- Scripts -->
+    <script src="js/createAccount.js"></script>
 </body>
 </html>

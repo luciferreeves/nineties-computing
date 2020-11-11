@@ -48,6 +48,9 @@
     display: inline-block;
     margin-right: 20px;
     cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .form_elements {
