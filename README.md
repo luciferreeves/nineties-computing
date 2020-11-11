@@ -1,6 +1,6 @@
 # 90s Computing
 
-![Website](https://img.shields.io/website?label=%20&style=for-the-badge&up_color=blueviolet&up_message=Click%20Here%20to%20Visit%20the%20Website&url=https%3A%2F%2Fluciferreeves.github.io%2Fnineties-computing%2F)
+[![Website](https://img.shields.io/website?label=%20&style=for-the-badge&up_color=blueviolet&up_message=Click%20Here%20to%20Visit%20the%20Website&url=https%3A%2F%2Fluciferreeves.github.io%2Fnineties-computing%2F)](https://luciferreeves.github.io/nineties-computing/)
 
 
 ![GitHub](https://img.shields.io/github/license/luciferreeves/nineties-computing?style=for-the-badge)
