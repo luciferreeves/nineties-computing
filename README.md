@@ -11,6 +11,7 @@
 
 You can visit [this url](https://luciferreeves.github.io/nineties-computing/) to experience this project.
 
+
 ## Your Information and Data
 
 There may be come instances where you might be asked to provide some of your personal information or there might be some places on the website where the information you are viewing might be stored.
@@ -42,3 +43,5 @@ I understand that you might not have the time and/or resources to manually contr
 This project is free and open source software; you can redistribute it and/or modify it under the MIT License. Please read more about the license [here](LICENSE).
 
 > Liked this project? Check out [more](https://github.com/luciferreeves?tab=repositories).
+
+> **_DISCLAIMER:_** <hr>Please note that this website is only a representation of the early computing experience and not a replica of any software which existed in that time (like Windows 95, Windows 98 or Classic Versions of macOS like macOS 8 or macOS 9). Not all components are made to look like a retro element and there might be some mordern elements present. If you like an element to look like some retro component, please feel free to raise a service request. <br><br>The website tries to rely mostly on free and open source images and other media. If you have a preblem with copyright of any media elements (including any images, sounds or videos) then please raise a Issue with proper proof of the ownership of the aforesaid media and it would be removed from the code.<br><br>**PS**: Since the code is open source and can be backtracked via commits, the developer would not be responsible for any media that is downloaded from the source code by going back in commit history and used at another place. It is the owner's responsibity to securely serve files over the internet.
