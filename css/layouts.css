@@ -133,3 +133,9 @@
 .animate > span > span {
   animation: move 2s linear infinite;
 }
+
+.wallpaper {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

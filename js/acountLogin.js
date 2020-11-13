@@ -62,17 +62,17 @@ function DELoader() {
   let width = 0;
 
   function loadMeter() {
-    if (width < 100) {
-      if (100 - width < 10) {
-        width = 100;
-      } else {
-        width += Math.round(Math.random() * 10);
-      }
-      meterLoaderElement.style.width = width + "%";
-    } else {
+    // if (width < 100) {
+    //   if (100 - width < 10) {
+    //     width = 100;
+    //   } else {
+    //     width += Math.round(Math.random() * 10);
+    //   }
+    //   meterLoaderElement.style.width = width + "%";
+    // } else {
       loadingDesktopExperienceElement.style.display = "none";
       document.getElementById('desktop').style.display = "block";
-    }
+    // }
   }
 
   (function loop() {
