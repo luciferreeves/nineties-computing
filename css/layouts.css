@@ -140,6 +140,10 @@
   background-repeat: no-repeat;
 }
 
+#desktop {
+  position: relative;
+}
+
 .window {
   background-color: #eeeeee;
   position: absolute;
@@ -148,9 +152,8 @@
 .non-resizable {
   width: 720px;
   height: 480px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: calc(50% - 240px);
+  left: calc(50% - 360px);
 }
 
 .window header {
@@ -166,6 +169,8 @@
   left: 50%;
   top: 10px;
   transform: translateX(-50%);
+  user-select: none;
+  cursor: default;
 }
 
 .buttons {
@@ -179,4 +184,9 @@
 .close {
   padding: 9px 15px 14px 15px;
   background-color: red;
+}
+
+.windowContents {
+  padding: 10px;
+  font-family: 'Chicago';
 }
