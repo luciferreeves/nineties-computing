@@ -3,6 +3,6 @@ body {
     padding: 0;
 }
 
-#loginSelector, #loadingDesktopExperience {
+#loginSelector, #loadingDesktopExperience, #desktop {
     display: none;
 }

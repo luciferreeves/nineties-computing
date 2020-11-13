@@ -2,10 +2,17 @@ const welcomeSection = document.getElementById("welcome");
 const loginSelectorSection = document.getElementById("loginSelector");
 const localAccounts = localStorage.getItem("accounts");
 const loginButton = document.getElementById("loginButton");
+const currentLoggedInUser = sessionStorage.getItem("currentLoggedInUser");
 
-if (localAccounts) {
+if (localAccounts && !currentLoggedInUser) {
   welcomeSection.style.display = "none";
   loginSelectorSection.style.display = "block";
+}
+
+if (currentLoggedInUser) {
+  welcomeSection.style.display = "none";
+  loginSelectorSection.style.display = "none";
+  DELoader();
 }
 
 async function sha512(str) {
@@ -34,8 +41,7 @@ loginButton.addEventListener("click", () => {
       sha512(password).then((hashedPassword) => {
         if (hashedPassword === account.password) {
           loginSelectorSection.style.display = "none";
-          const loadingDesktopExperienceElement = document.getElementById("loadingDesktopExperience");
-          loadingDesktopExperienceElement.style.display = "block";
+          sessionStorage.setItem("currentLoggedInUser", fullName);
           DELoader();
         } else {
           loginError.innerHTML = "The password entered is incorrect.";
@@ -48,6 +54,10 @@ loginButton.addEventListener("click", () => {
 });
 
 function DELoader() {
+  const loadingDesktopExperienceElement = document.getElementById(
+    "loadingDesktopExperience"
+  );
+  loadingDesktopExperienceElement.style.display = "block";
   const meterLoaderElement = document.getElementById("meter-loader");
   let width = 0;
 
@@ -59,6 +69,9 @@ function DELoader() {
         width += Math.round(Math.random() * 10);
       }
       meterLoaderElement.style.width = width + "%";
+    } else {
+      loadingDesktopExperienceElement.style.display = "none";
+      document.getElementById('desktop').style.display = "block";
     }
   }
 
