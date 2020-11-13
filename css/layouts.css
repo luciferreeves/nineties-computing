@@ -139,3 +139,44 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.window {
+  background-color: #eeeeee;
+  position: absolute;
+}
+
+.non-resizable {
+  width: 720px;
+  height: 480px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.window header {
+  background-color: #3c3cc7;
+  color: white;
+  padding: 20px 0px;
+}
+
+.title {
+  font-size: 14px;
+  font-family: 'Chicago';
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+}
+
+.buttons {
+  font-size: 14px;
+  font-family: 'Chicago';
+  position: absolute;
+  right: 5px;
+  top: 9px;
+}
+
+.close {
+  padding: 9px 15px 14px 15px;
+  background-color: red;
+}
